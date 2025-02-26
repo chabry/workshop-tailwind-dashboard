@@ -27,7 +27,7 @@ L'objectif est d'apprendre à utiliser TailwindCSS pour structurer rapidement un
 
 Pendant ce workshop, vous allez créer un **dashboard** minimaliste avec TailwindCSS. Il sera composé de :  
 
-✅ Une **sidebar fixe** avec une navigation  
+✅ Une **sidebar fixe** avec une navigation (🏠 Accueil, 📊 Statistiques, ⚙️ Paramètres)
 ✅ Un **header** avec un message de bienvenue et un bouton  
 ✅ Une **section de statistiques** avec des cartes  
 ✅ Un **tableau de transactions** 
