@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workshop Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-200">
+
+<body class="bg-gray-200 p-4">
     
+    <aside class="w-40 bg-gray-800 text-white h-screen p-4 fixed top-0 left-0">
+        <h2 class="text-xl font-bold mb-6">Admin Dashboard</h2>
+        <ul>
+            <li class="mb-4"><a href="#" class="hover:text-gray-300">Accueil</a></li>
+            <li class="mb-4"><a href="#" class="hover:text-gray-300">Statistiques</a></li>
+            <li class="mb-4"><a href="#" class="hover:text-gray-300">Paramètres</a></li>
+        </ul>
+    </aside>
+
+    <div class="ml-40">
+        <div class="flex justify-between items-center bg-white p-1 mt-8 rounded">
+            <h1 class="text-black text-2xl font-bold">Bienvenue, Admin !</h1>
+            <header class="bg-white p-4">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded">Deconnexion</button>
+            </header>
+        </div>
+    
+    
+    
+    <div class="flex gap-3 mt-8 rounded">
+    <section class="container mx-auto p-4 bg-white rounded">
+        <h2 class="text-1xl font-bold">Utilisateurs</h2>
+        <p class="text-gray-700">1,245</p>
+    </section>
+    <section class="container mx-auto p-4 bg-white rounded">
+        <h2 class="text-1xl font-bold">Ventes</h2>
+        <p class="text-gray-700">€5,320</p>
+    </section>
+    <section class="container mx-auto p-4 bg-white rounded">
+        <h2 class="text-1xl font-bold">Support Tickets</h2>
+        <p class="text-gray-700">32</p>
+    </section>
+    </div>
+
+    <div>
+    <h1 class="text-1xl p-4 font-bold">Dernières Transactions</h1>
+    </div>
+
+    <div class="container mx-auto p-4">
+        <table class="w-full border-collapse">
+            <thead>
+                <tr class="bg-gray-400">
+                    <th class="border p-2 text-left font-bold">Utilisateur</th>
+                    <th class="border p-2 text-left font-bold">Montant</th>
+                    <th class="border p-2 text-left font-bold">Statut</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white">
+                    <td class="border p-2">Jean Dupont</td>
+                    <td class="border p-2">€250</td>
+                    <td class="border p-2 text-green-500">Payé</td>
+                </tr>
+                <tr class="bg-white">
+                    <td class="border p-2">Marie Curie</td>
+                    <td class="border p-2">€125</td>
+                    <td class="border p-2 text-red-500">En attente</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+
+
 </body>
 </html>
